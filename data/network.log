@@ -1,0 +1,39 @@
+2025-06-12 23:12:10 - Intentando conectar a: TOTALPLAY_E81861 Infra 149
+2025-06-12 23:12:12 - Intento 1 fallido para TOTALPLAY_E81861 Infra 149
+2025-06-12 23:12:16 - Intento 2 fallido para TOTALPLAY_E81861 Infra 149
+2025-06-12 23:12:18 - Intento 3 fallido para TOTALPLAY_E81861 Infra 149
+2025-06-12 23:12:19 - Falló la conexión a TOTALPLAY_E81861 Infra 149 después de 3 intentos
+2025-06-12 23:13:58 - WiFi desconectado
+2025-06-12 23:14:13 - Intentando conectar a: Totalplay-2.4G-bca8 Infra 1
+2025-06-12 23:14:17 - Conexión cancelada por el usuario
+2025-06-12 23:14:26 - WiFi desconectado
+2025-06-12 23:18:11 - WiFi desconectado
+2025-06-12 23:18:14 - WiFi desconectado
+2025-06-12 23:18:23 - WiFi desconectado
+2025-06-12 23:18:29 - Intentando conectar a: Totalplay-2.4G-bca8 Infra 1
+2025-06-12 23:18:30 - Conexión cancelada por el usuario
+2025-06-12 23:18:59 - WiFi desconectado
+2025-06-12 23:19:01 - WiFi desconectado
+2025-06-12 23:21:14 - WiFi desconectado
+2025-06-12 23:21:19 - Intentando conectar a: Totalplay-2.4G-bca8 Infra 1
+2025-06-12 23:21:21 - Conexión cancelada por el usuario
+2025-06-12 23:21:52 - Intentando conectar a: Totalplay-2.4G-bca8 Infra 1
+2025-06-12 23:21:53 - Conexión cancelada por el usuario
+2025-06-12 23:25:10 - WiFi desconectado manualmente
+2025-06-12 23:25:21 - Usuario seleccionó: SSID='Totalplay-2.4G-bca8', Señal=77%, Seguridad='WPA2'
+2025-06-12 23:25:21 - Intentando conectar a: Totalplay-2.4G-bca8 (Seguridad: WPA2)
+2025-06-12 23:25:22 - Conectado a Totalplay-2.4G-bca8 sin solicitar contraseña
+2025-06-12 23:26:23 - WiFi desconectado
+2025-06-12 23:26:30 - Usuario seleccionó: SSID='Totalplay-2.4G-bca8', Señal=67%, Seguridad='WPA2'
+2025-06-12 23:26:30 - Intentando conectar a: Totalplay-2.4G-bca8 (Seguridad: WPA2)
+2025-06-12 23:26:30 - Conectado a Totalplay-2.4G-bca8 sin solicitar contraseña
+2025-06-12 23:28:21 - WiFi ya conectado a: Totalplay-2.4G-bca8
+2025-06-12 23:28:27 - WiFi desconectado manualmente de: Totalplay-2.4G-bca8
+2025-06-12 23:28:29 - WiFi ya conectado a: 
+2025-06-12 23:28:36 - WiFi ya conectado a: 
+2025-06-12 23:28:53 - Usuario seleccionó: SSID='Totalplay-2.4G-bca8', Señal=64%, Seguridad='WPA2'
+2025-06-12 23:28:53 - Intentando conectar a: Totalplay-2.4G-bca8 (Seguridad: WPA2)
+2025-06-12 23:28:54 - Conectado a Totalplay-2.4G-bca8 sin solicitar contraseña
+2025-06-12 23:33:00 - Usuario seleccionó: SSID='Totalplay-2.4G-bca8', Señal=69%, Seguridad='WPA2'
+2025-06-12 23:33:00 - Intentando conectar a: Totalplay-2.4G-bca8 (Seguridad: WPA2)
+2025-06-12 23:33:01 - Conectado a Totalplay-2.4G-bca8 sin solicitar contraseña

@@ -1,0 +1,127 @@
+
+/**
+ * Tema de Rofi para Network Manager
+ */
+
+* {
+    bg-col:  #1e1e2e;
+    bg-col-light: #313244;
+    border-col: #74c7ec;
+    selected-col: #74c7ec;
+    blue: #89b4fa;
+    fg-col: #cdd6f4;
+    fg-col2: #f38ba8;
+    grey: #6c7086;
+    
+    font: "JetBrains Mono Nerd Font 12";
+}
+
+element-text, element-icon, mode-switcher {
+    background-color: inherit;
+    text-color: inherit;
+}
+
+window {
+    height: 60%;
+    width: 50%;
+    border: 3px;
+    border-color: @border-col;
+    background-color: @bg-col;
+    border-radius: 10px;
+}
+
+mainbox {
+    background-color: @bg-col;
+    children: [inputbar, listview, mode-switcher];
+    spacing: 10px;
+    padding: 20px;
+}
+
+inputbar {
+    children: [prompt, entry];
+    background-color: @bg-col;
+    border-radius: 5px;
+    padding: 8px;
+    border: 2px;
+    border-color: @border-col;
+}
+
+prompt {
+    background-color: @blue;
+    padding: 8px 12px;
+    text-color: @bg-col;
+    border-radius: 3px;
+    margin: 0px 10px 0px 0px;
+    font-weight: bold;
+}
+
+textbox-prompt-colon {
+    expand: false;
+    str: ":";
+}
+
+entry {
+    padding: 8px;
+    margin: 0px 0px 0px 10px;
+    text-color: @fg-col;
+    background-color: @bg-col;
+    placeholder-color: @grey;
+    placeholder: "Buscar...";
+}
+
+listview {
+    border: 0px 0px 0px;
+    padding: 6px 0px 0px;
+    margin: 10px 0px 0px 0px;
+    columns: 1;
+    lines: 8;
+    background-color: @bg-col;
+    scrollbar: true;
+}
+
+element {
+    padding: 10px;
+    background-color: @bg-col;
+    text-color: @fg-col;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+element-icon {
+    size: 25px;
+    margin: 0px 10px 0px 0px;
+}
+
+element selected {
+    background-color: @selected-col;
+    text-color: @bg-col;
+    border-radius: 5px;
+}
+
+mode-switcher {
+    spacing: 0;
+    background-color: @bg-col;
+    padding: 10px 0px 0px 0px;
+}
+
+button {
+    padding: 10px;
+    background-color: @bg-col-light;
+    text-color: @grey;
+    border: 2px 0px 2px 2px;
+    border-radius: 5px 0px 0px 5px;
+    border-color: @border-col;
+}
+
+button selected {
+    background-color: @selected-col;
+    text-color: @bg-col;
+}
+
+scrollbar {
+    width: 4px;
+    border: 0;
+    handle-color: @border-col;
+    handle-width: 8px;
+    padding: 0;
+}
