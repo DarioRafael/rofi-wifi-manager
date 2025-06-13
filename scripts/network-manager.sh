@@ -62,8 +62,6 @@ $wifi_option
 🛑 Detener hotspot
 🔧 Configuración avanzada
 📊 Ver estado de red
-📝 Ver log de conexiones
-🗑️ Limpiar contraseñas guardadas
 ❌ Salir"
 
   local choice=$(echo -e "$options" | rofi -dmenu -p "$status_text" -i -theme ~/.config/rofi/config/network.rasi)
@@ -89,12 +87,6 @@ $wifi_option
     ;;
   "📊 Ver estado de red")
     show_network_status
-    ;;
-  "📝 Ver log de conexiones")
-    show_logs
-    ;;
-  "🗑️ Limpiar contraseñas guardadas")
-    clear_passwords
     ;;
   "❌ Salir")
     exit 0
@@ -170,25 +162,6 @@ show_network_status() {
   esac
 
   echo -e "$status" | rofi -dmenu -p "Estado de red" -i -no-custom
-}
-
-# Función para mostrar logs
-show_logs() {
-  if [[ -f "$LOG_FILE" ]]; then
-    tail -50 "$LOG_FILE" | rofi -dmenu -p "Últimas 50 entradas del log" -i -no-custom
-  else
-    echo "No hay logs disponibles" | rofi -dmenu -p "Log de red" -i -no-custom
-  fi
-}
-
-# Función para limpiar contraseñas
-clear_passwords() {
-  local confirm=$(echo -e "Sí\nNo" | rofi -dmenu -p "¿Eliminar todas las contraseñas guardadas?")
-  if [[ "$confirm" == "Sí" ]]; then
-    >"$PASSWORDS_FILE"
-    notify-send "Rofi Network" "Contraseñas eliminadas" -i dialog-info
-    log_message "Contraseñas guardadas eliminadas"
-  fi
 }
 
 # Funciones adicionales de configuración avanzada
